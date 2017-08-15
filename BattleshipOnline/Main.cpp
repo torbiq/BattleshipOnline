@@ -8,7 +8,7 @@ int main() {
 	bool* bools[]{ _1, _2, _3 };
 	Ship kek(3, bools);
 	//kek.GetShipParts()[kek.GetLength() - 2] = false;
-	cout << kek.GetShipPartsAt()[kek.GetLength() - 2];
+	cout << kek.GetShipPartsAt(kek.GetLength() - 2);
 	system("pause");
 	return 0;
 }
